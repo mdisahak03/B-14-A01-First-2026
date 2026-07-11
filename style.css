@@ -20,8 +20,8 @@ body {
   padding: 18px 0;
 }
 
-.logo-img {
-  height: 52px;
+.logo-img img{
+    height: 52px;
 }
 
 .menu-text {
