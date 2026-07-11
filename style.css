@@ -58,7 +58,7 @@ body {
 }
 .hero-sec{
   
-  background: url("/assets/banner.jpg")  center center/cover no-repeat;
+background: url("./assets/banner.jpg") center center/cover no-repeat;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -67,7 +67,6 @@ body {
   text-align: center;
 }
 .text-formet{
- .text-formet{
   position: absolute;
   top: 0;
   left: 0;
@@ -76,7 +75,6 @@ body {
   background: rgba(0, 0, 0, 0.45);
 }
 
-}
 .hero-content{
   position: relative;
   max-width: 850px;
