@@ -295,74 +295,78 @@ body {
   border: none;
 }
 
-/* Ai Challange Section */
+/* Ai Challenge Section */
 
-.hackathon{
-    width: 90%;
-    max-width: 1200px;
-    margin: 100px auto;
-    background: #0D1B2A;
-    color: #ffffff;
-    border-radius: 16px;
-    padding: 70px 60px;
-    text-align: center;
+.hackathon {
+  width: 90%;
+  max-width: 1200px;
+  margin: 100px auto;
+  background: #0d1b2a;
+  color: #ffffff;
+  border-radius: 16px;
+  padding: 70px 60px;
+  text-align: center;
 }
 
-.hackathon-tag{
-    display: inline-block;
-    background: #2962FF;
-    color: #ffffff;
-    padding: 8px 18px;
-    border-radius: 30px;
-    font-size: 13px;
-    font-weight: 700;
-    margin-bottom: 20px;
+.hackathon-tag {
+  display: inline-block;
+  background: #2962ff;
+  color: #ffffff;
+
+  font-size: 18px;
+
+  margin-bottom: 20px;
+
+  padding: 16px 40px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
 }
 
-.hackathon h2{
-    font-size: 48px;
-    margin-bottom: 20px;
+.hackathon h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
 }
 
-.hackathon p{
-    max-width: 800px;
-    margin: 0 auto 50px;
-    font-size: 18px;
-    line-height: 1.8;
-    color: #D1D5DB;
+.hackathon p {
+  max-width: 800px;
+  margin: 0 auto 50px;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #d1d5db;
 }
 
-.hackathon-info{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 25px;
-    margin-bottom: 50px;
+.hackathon-info {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  margin-bottom: 50px;
 }
 
-.info-box{
-    background: #162231;
-    padding: 30px;
-    border-radius: 12px;
+.info-box {
+  background: #162231;
+  padding: 30px;
+  border-radius: 12px;
 }
 
-.info-box h3{
-    font-size: 32px;
-    color: #3B82F6;
-    margin-bottom: 10px;
+.info-box h3 {
+  font-size: 32px;
+  color: #3b82f6;
+  margin-bottom: 10px;
 }
 
-.info-box p{
-    margin: 0;
-    color: #ffffff;
-    font-size: 16px;
+.info-box p {
+  margin: 0;
+  color: #ffffff;
+  font-size: 16px;
 }
 
-.hackathon-btn{
-    background: #2962FF;
-    color: #ffffff;
-    border: none;
-    padding: 16px 40px;
-    border-radius: 10px;
-    font-size: 18px;
-    font-weight: 600;
+.hackathon-btn {
+  background: #2962ff;
+  color: #ffffff;
+  border: none;
+  padding: 16px 40px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
 }
