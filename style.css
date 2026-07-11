@@ -370,3 +370,22 @@ body {
   font-size: 18px;
   font-weight: 600;
 }
+/* Footer */
+
+.footer{
+  width: 90%;
+  max-width: 1200px;
+  margin: 80px auto 40px;
+}
+
+.footer-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+
+}
+
+.footer-logo img{
+  height: 50px;
+}
