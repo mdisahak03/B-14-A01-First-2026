@@ -20,8 +20,8 @@ body {
   padding: 18px 0;
 }
 
-.logo-img img{
-    height: 52px;
+.logo-img img {
+  height: 52px;
 }
 
 .menu-text {
@@ -56,9 +56,10 @@ body {
 .nav-btn:hover {
   background: #3e62ce;
 }
-.hero-sec{
-  
-background: url("./assets/banner.jpg") center center/cover no-repeat;
+
+/* Hero section */
+.hero-sec {
+  background: url("./assets/banner.jpg") center center/cover no-repeat;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -66,7 +67,7 @@ background: url("./assets/banner.jpg") center center/cover no-repeat;
   position: relative;
   text-align: center;
 }
-.text-formet{
+.text-formet {
   position: absolute;
   top: 0;
   left: 0;
@@ -75,32 +76,30 @@ background: url("./assets/banner.jpg") center center/cover no-repeat;
   background: rgba(0, 0, 0, 0.45);
 }
 
-.hero-content{
+.hero-content {
   position: relative;
   max-width: 850px;
   padding: 20px;
   color: #ffff;
   z-index: 1;
-  
 }
 
-.hero-content h1{
+.hero-content h1 {
   font-size: 72px;
   margin-bottom: 25px;
   line-height: 1.2;
-
 }
-.hero-content em{
-font-style: italic;
+.hero-content em {
+  font-style: italic;
 }
 
-.hero-content p{
+.hero-content p {
   font-size: 22px;
   margin-bottom: 60px;
   line-height: 1.6;
 }
 
-.hero-btn{
+.hero-btn {
   background: #1d4ed8;
   color: #ffff;
   padding: 18px 40px;
@@ -108,6 +107,67 @@ font-style: italic;
   border-radius: 12px;
   font-size: 22px;
   font-weight: 600;
-  cursor:pointer;
+  cursor: pointer;
   transition: 0.3s;
+}
+
+/* Speakars Section */
+
+.speakers {
+  width: 90%;
+  max-width: 1200px;
+  margin: 80px auto;
+}
+
+.speakers h1 {
+  text-align: center;
+  font-size: 52px;
+  font-weight: 700;
+  color: #000102;
+  margin-bottom: 50px;
+}
+
+.speaker-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.card {
+  background: #ffff;
+  border: 1px solid #ffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.card img {
+  width: 100%;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 32px;
+}
+
+.card-content span {
+  color: #2563eb;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.card-content h4 {
+  margin: 10px 0;
+  font-size: 24px;
+  color: #0d1b2a;
+}
+
+.card-content p {
+  font-size: 16px;
+  color: #575757;
+  line-height: 1.5;
 }
