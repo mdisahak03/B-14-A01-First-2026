@@ -1,0 +1,1 @@
+I'm building a DevConf 2026 website.Suggest a unique section idea.Don't give me any code or ready-made content.Only give me hints, ideas, suggestions, and guidance so I can build it by myself.
