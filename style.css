@@ -92,6 +92,7 @@ body {
 }
 
 .hero-btn {
+  margin-top: 300px;
   background: #1d4ed8;
   color: #ffff;
   padding: 18px 40px;
@@ -218,7 +219,7 @@ body {
 }
 
 .active .plan {
-  color: #6ba8ff;
+  color: #93c5fd;
 }
 
 .price-card h3 {
@@ -392,7 +393,7 @@ body {
 .social-icons a {
   width: 45px;
   height: 45px;
-  background: #ffff;
+  background: #fff3f3;
   border-radius: 50%;
 
   display: flex;
